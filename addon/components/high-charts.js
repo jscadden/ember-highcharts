@@ -83,5 +83,6 @@ export default Ember.Component.extend({
     if (get(this, 'chart')) {
       get(this, 'chart').destroy();  
     }
+    set(this, 'chart', null);
   })
 });
